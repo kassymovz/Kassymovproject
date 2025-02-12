@@ -1,0 +1,150 @@
+#company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:22px;
+}
+.sale-company{
+    display: flex;
+    gap:5px;
+}
+span{
+    font-size:34px;
+    font-weight:900;
+    animation: company 1.4s linear infinite;
+}
+.header{
+    background-image:url("https://i.pinimg.com/originals/85/8d/1c/858d1cefb3b769e0807a512dc22caea2.jpg");
+    height:778px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:blue;
+    opacity:0.77;
+    width:100%;
+}
+nav ul li{
+    display: inline;
+    margin:0 50px;
+    color:white;
+    font-size:34px;
+}
+.container{
+    padding:3px;
+}
+button{
+    border:none;
+    font-weight: 900;
+}
+.About{
+    padding:63px;
+}
+#Name-Product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+#Products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:23px;
+    padding:4px;
+}
+img{
+    height:255px;
+}
+.Adidas,.Puma,.Demix,.Umbro,.Everlast,.Nike,.Umbro,.Reebok,.Under-Armour,.Fila{
+    background-color: blue;
+    padding:3px;
+}
+h2{
+    color:yellow;
+}
+s{
+    color:red;
+    font-size:19px;
+}
+.Cloth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:23px;
+}
+button{
+    background:black;
+    color:white;
+    height:34px;
+    width:190px;
+    border-radius: 76px;
+    font-size:19px;
+    border:none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#Footer{
+    display: flex;
+    background-color: blue;
+    height:230px;
+    justify-content: space-between;
+}
+h1{
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+.location{
+    height:234px;
+}
+#About-us{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+p{
+    width:789px;
+    text-align: center;
+    font-size: 23px;
+}
+.sportsmen{
+    height:599px;
+    width:600px;
+    margin:13px;
+}
+html{
+    scroll-behavior: smooth;
+}
+span:nth-child(1){
+    animation-delay: 0.1s;
+}
+span:nth-child(2){
+    animation-delay: 0.2s;
+}
+span:nth-child(3){
+    animation-delay: 0.3s;
+}
+span:nth-child(4){
+    animation-delay: 0.4s;
+}
+span:nth-child(5){
+    animation-delay: 0.5s;
+}
+span:nth-child(6){
+    animation-delay: 0.6s;
+}
+span:nth-child(7){
+    animation-delay: 0.7s;
+}
+span:nth-child(8){
+    animation-delay: 0.8s;
+}
+@keyframes company{
+    100%{
+        top:-20px;
+    }
+}
